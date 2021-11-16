@@ -26,12 +26,22 @@ function operation() {
         let inputValue = parseInt(input.value);
         answerValue = answerValue + inputValue;
         answer.innerText = answerValue;
+        if (answerValue < 0) {
+            answer.style.color = "red";
+        } else {
+            answer.style.color = "black";
+        }
     })
     buttonMinus.addEventListener("click", function () {
         let answerValue = parseInt(answer.innerText);
         let inputValue = parseInt(input.value);
         answerValue = answerValue - inputValue;
         answer.innerText = answerValue;
+        if (answerValue < 0) {
+            answer.style.color = "red";
+        } else {
+            answer.style.color = "black";
+        }
     })
 }
 
