@@ -26,6 +26,9 @@ function operation() {
         let inputValue = parseInt(input.value);
         answerValue = answerValue + inputValue;
         answer.innerText = answerValue;
+        if (isNaN(answer.innerText) == true) {
+            answer.innerText = 0;
+        }
         if (answerValue < 0) {
             answer.style.color = "red";
         } else {
@@ -37,6 +40,9 @@ function operation() {
         let inputValue = parseInt(input.value);
         answerValue = answerValue - inputValue;
         answer.innerText = answerValue;
+        if (isNaN(answer.innerText) == true) {
+            answer.innerText = 0;
+        }
         if (answerValue < 0) {
             answer.style.color = "red";
         } else {
