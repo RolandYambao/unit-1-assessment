@@ -1,3 +1,36 @@
 h1 {
+    font-size: 75px;
+}
+body {
+    padding-top: 50px;
     text-align: center;
+}
+.controls {
+    margin-top: 30px;
+}
+#plus {
+    color: white;
+    margin-right: 25px;
+    font-size: 30px;
+    padding: 10px 20px 15px 20px;
+    background-color: grey;
+    border: solid 3px grey;
+    border-radius: 10px;
+}
+#input {
+    width: 150px;
+    padding: 1px 0 13px 20px;
+    font-size: 40px;
+    text-align: center;
+    border: solid 3px grey;
+    border-radius: 10px;
+}
+#minus {
+    color: white;
+    margin-left: 25px;
+    font-size: 30px;
+    padding: 10px 20px 15px 20px;
+    background-color: grey;
+    border: solid 3px grey;
+    border-radius: 10px;
 }
